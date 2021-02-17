@@ -2,7 +2,7 @@ const fs = require('fs');
 const {Client, MessageEmbed} = require('discord.js');
 const Discord = require('discord.js');
 const prefix = '?'
-const token = 'NzA3Mjg2ODg4MzYwMzEyODcz.XrGmPg.Dch4lITKWEnwsVR1mlyabPIOLnw'
+const token = ''
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
 
