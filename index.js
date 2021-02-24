@@ -9,18 +9,18 @@ const client = new Discord.Client();
 const GUILD = '654482539922063360'
 const bottestingchannel = '654512471205478410';
 const botcomchannel = '654510138170015764';
-var Edition = 14;
+var Edition = 15;
 var CurrentColor = '0xfdb913';
 var AvscPink = '0xff33f9';
 var BasicLogoPink = 'https://media.discordapp.net/attachments/654678177771290645/784143996548546633/avsclogobasic.jpg';
 var CurrentLogo = 'https://media.discordapp.net/attachments/700340471351738478/804401810499698738/image0.png?width=861&height=670';
 var Phase = 'Voting';
-var Version = '0.27.5';
+var Version = '0.27.6';
 var PatchDate = '4:55 PM, February 2, 2021';
-var PatchNote = 'Fixed some bugs in ?country-commands.'
-var LastPatchDate = '6:30 PM CST, January 29, 2021';
-var LastPatchNote = 'Updated to Edition 14.'
-var LastVers = '0.27.4'
+var PatchNote = 'Updated to Edition 15.'
+var LastPatchDate = '4:55 PM CST, February 2, 2021';
+var LastPatchNote = 'Fixed some errors in ?country-commands.'
+var LastVers = '0.27.5'
 
 client.on('ready', () =>{
     console.log('And... the bot is up!');   
